@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw
 import io
 import random
 from ultralytics import YOLO
-import time  
+import time
 
 ###############################################################################
 # 1. Chaotic Logistic Map Encryption Functions
@@ -125,7 +125,7 @@ def detect_license_plates(model, pil_image):
 
 
 def main():
-    st.title("YOLOv8 + Chaotic Encryption Demo")
+    st.title("YOLOv8 + Chaotic Encryption")
     st.write(
         """
         **Instructions**:
