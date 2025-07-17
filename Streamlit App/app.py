@@ -33,7 +33,6 @@ def shuffle_pixels(img_array, seed):
     num_pixels = h * w
     flattened = img_array.reshape(-1, c)
     indices = np.arange(num_pixels)
-
     random.seed(seed)
     random.shuffle(indices)
 
